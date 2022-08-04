@@ -14,8 +14,9 @@ const reverseArray = (arr) => {
   for(let i =arr.length-1;i>=0;i--)
   {
 arr2.push(arr[i]);
-return arr2
+
   }
+  return arr2;
 };
 
 // -------------------------------------------------------------------------------------------------------
@@ -33,7 +34,7 @@ const arrInc = (arr) => {
 
   const result = [];
   let a=0;
-  for(let x=0;x<arr.length;x++)
+  for(let x=0; x < arr.length;x++)
   {
 a=arr[x]+10;
 result.push(a);
